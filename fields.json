@@ -1,0 +1,21 @@
+[
+ {"name":"RIDAGEYR","label":"Age","unit":"years","group":"Profile","min":65,"max":120,"step":1,"hint":"Adults 65+. Ages 80 and above are encoded as 80."},
+ {"name":"RIAGENDR","label":"Gender recorded in NHANES","group":"Profile","options":[[1,"Male"],[2,"Female"]]},
+ {"name":"RIDRETH1","label":"Race / ethnicity","group":"Profile","options":[[1,"Mexican American"],[2,"Other Hispanic"],[3,"Non-Hispanic White"],[4,"Non-Hispanic Black"],[5,"Other / multiracial"]]},
+ {"name":"DMDEDUC2","label":"Education","group":"Profile","options":[[1,"Less than 9th grade"],[2,"9th–11th grade"],[3,"High school / GED"],[4,"Some college / associate degree"],[5,"College graduate or above"]]},
+ {"name":"smoking_status","label":"Smoking status","group":"Profile","hint":"Never: fewer than 100 cigarettes in your lifetime. Former: 100+ and no current smoking. Current: 100+ and smoking now.","options":[[0,"Never"],[1,"Former"],[2,"Current"]]},
+ {"name":"meets_guideline","label":"Aerobic activity target","group":"Profile","hint":"Across work, transport and recreation: moderate minutes + 2 × vigorous minutes ≥150 per week.","options":[[0,"Below 150 equivalent minutes / week"],[1,"At least 150 equivalent minutes / week"]]},
+ {"name":"BMXBMI","label":"Body mass index","unit":"kg/m²","group":"Measurements","min":10,"max":100,"step":0.1},
+ {"name":"BMXWAIST","label":"Waist circumference","unit":"cm","group":"Measurements","min":30,"max":250,"step":0.1},
+ {"name":"mean_dbp","label":"Mean diastolic blood pressure","unit":"mmHg","group":"Measurements","min":1,"max":200,"step":0.1,"hint":"Use the average of valid diastolic blood pressure readings."},
+ {"name":"LBXTR","label":"Fasting triglycerides","unit":"mg/dL","group":"Lab results","min":1,"max":5000,"step":0.1},
+ {"name":"LBDLDL","label":"LDL cholesterol","unit":"mg/dL","group":"Lab results","min":0,"max":1000,"step":0.1,"hint":"The study used Friedewald-calculated LDL-C. Enter a comparable laboratory result."},
+ {"name":"LBDHDD","label":"HDL cholesterol","unit":"mg/dL","group":"Lab results","min":1,"max":500,"step":0.1},
+ {"name":"LBXSCH","label":"Total cholesterol","unit":"mg/dL","group":"Lab results","min":1,"max":1500,"step":0.1},
+ {"name":"LBXGLU","label":"Fasting plasma glucose","unit":"mg/dL","group":"Lab results","min":1,"max":1500,"step":0.1},
+ {"name":"LBXSPH","label":"Serum phosphorus","unit":"mg/dL","group":"Lab results","min":0.1,"max":30,"step":0.1},
+ {"name":"LBXSTP","label":"Serum total protein","unit":"g/dL","group":"Lab results","min":0.1,"max":20,"step":0.1},
+ {"name":"LBXLYPCT","label":"Lymphocytes","unit":"%","group":"Lab results","min":0,"max":100,"step":0.1},
+ {"name":"LBXMOPCT","label":"Monocytes","unit":"%","group":"Lab results","min":0,"max":100,"step":0.1},
+ {"name":"LBXNEPCT","label":"Segmented neutrophils","unit":"%","group":"Lab results","min":0,"max":100,"step":0.1}
+]
