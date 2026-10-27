@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "version": "2.0.0",
+  "url": "https://osteoarthritis-status-calculator.streamlit.app/",
+  "health": "200 ok",
+  "method": "Public Streamlit session protocol; fictional example only",
+  "default_model": "questionnaire",
+  "questionnaire_example": "46.4%",
+  "full_example": "42.2%",
+  "model_switch_clears_result": true,
+  "clear_clears_result": true,
+  "browser_layout_check": "not independently rechecked"
+}

@@ -26,6 +26,6 @@ The isolated test environment used the deployment's pinned scikit-learn 1.7.2, N
 
 The notebook defines superiority as net benefit more than 0.01 above the better default strategy across the longest continuous threshold grid interval. Reproduction gives 0.25–0.47 for the questionnaire model and 0.24–0.51 for the full model. For the questionnaire model, 0.23 is an isolated qualifying point and 0.24 does not pass. The manuscript's 0.23–0.47 questionnaire range therefore needs reconciliation; it was not copied into the app as a continuous range.
 
-Tests above verify local code and saved artifacts. A GitHub commit or HTTP page response alone does not establish that the live Streamlit service has loaded this release. Desktop/mobile browser layout was not independently rechecked for this release.
+The live Streamlit app was resumed from hibernation and independently checked on 2026-10-27. Its runtime health endpoint returned `200 ok`, and a public application session reported v2.0.0. The session defaulted to the questionnaire model, calculated the fictional example as 46.4%, switched to the full model and calculated 42.2%, and cleared the displayed result on model switching and Clear. These checks exercised the live session protocol with fictional data; desktop/mobile browser layout was not independently rechecked for this release. A GitHub commit or a generic HTTP page response alone was not treated as deployment verification.
 
 Raw datasets, participant identifiers and individual validation predictions are not included in the repository.
